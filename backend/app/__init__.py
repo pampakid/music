@@ -29,5 +29,7 @@ def create_app():
     
     app.register_blueprint(auth_bp, url_prefix='/api/auth')
     app.register_blueprint(video_bp, url_prefix='/api/videos')
+    app.register_blueprint(video_bp, url_prefix='/api/v1/video')
+
     
     return app

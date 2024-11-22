@@ -4,6 +4,9 @@ env/
 ENV/
 .env
 
+# Credentials
+cred/
+
 # Python
 *.py[cod]
 __pycache__/
