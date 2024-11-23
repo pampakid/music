@@ -12,7 +12,7 @@ class Config:
     AWS_ACCESS_KEY = os.environ.get('AWS_ACCESS_KEY')
     AWS_SECRET_KEY = os.environ.get('AWS_SECRET_KEY')
     S3_BUCKET = os.environ.get('S3_BUCKET')
-    AWS_REGION = os.environ.get('AWS_REGION', 'sa-east-1')
+    AWS_REGION = os.environ.get('AWS_REGION', 'us-east-1')
     
     # Database
     SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or \
